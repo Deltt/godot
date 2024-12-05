@@ -122,7 +122,7 @@ void SubViewportContainer::_notification(int p_what) {
 				}
 
 				if (is_visible_in_tree()) {
-					c->set_update_mode(SubViewport::UPDATE_ALWAYS);
+					//c->set_update_mode(SubViewport::UPDATE_ALWAYS);
 				} else {
 					c->set_update_mode(SubViewport::UPDATE_DISABLED);
 				}
